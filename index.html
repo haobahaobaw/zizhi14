@@ -1,280 +1,175 @@
-@charset "UTF-8";
-/* Body */
-body {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	background-color: #FFFFFF;
-	margin: 0;
-}
-/* Container */
-.container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #FFFFFF;
-}
-/* Header */
-header {
-	width: 100%;
-	height: 8%;
-	background-color: #5D5E5D;
-	border-bottom: 1px solid #353635;
-}
-.logo {
-	color: #fff;
-	font-weight: bold;
-	margin-left: auto;
-	letter-spacing: 4px;
-	margin-right: auto;
-	text-align: center;
-	padding-top: 15px;
-	line-height: 2em;
-	font-size: 22px;
-}
-.hero_header {
-	color: #FFFFFF;
-	text-align: center;
-	margin: 0;
-	letter-spacing: 4px;
-}
-/* About Section */
-.text_column {
-	width: 90%;
-	text-align: left;
-	font-weight: lighter;
-	line-height: 25px;
-	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: #A3A3A3;
-}
-.gallery {
-	clear: both;
-	display: inline-block;
-	width: 100%;
-	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
-*/
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
-}
-.thumbnail {
-	width: 23%;
-	text-align: center;
-	float: left;
-	margin-top: 35px;
-	background-color: #F8F8F8;
-	padding-bottom: 20px;
-	margin-left: 1%;
-	margin-right: 1%;
-	border-radius: 3px;
-	padding-top: 20px;
-	border-bottom: 4px solid #6DC7D0;
-}
-.gallery .thumbnail h4 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	color: #52BAD5;
-	text-align: left;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.gallery .thumbnail p {
-	margin: 0;
-	color: #B3B3B3;
-	text-align: left;
-	padding-left: 20px;
-}
-/* More info */
-.intro {
-	background-color: #FFFFFF;
-	padding-bottom: 35px;
-}
-.column {
-	width: 50%;
-	text-align: center;
-	padding-top: 30px;
-	float: left;
-}
-.intro .column h3 {
-	color: #FFFFFF;
-	text-align: center;
-}
-.intro .column p {
-	color: #FFFFFF;
-}
-.cards {
-	width: 100%;
-	height: auto;
-	max-width: 400px;
-	max-height: 200px;
-	opacity: 0.8;
-}
-.intro .column p {
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: justify;
-	line-height: 25px;
-	font-weight: lighter;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 80%;
-	margin-top: 4%;
-}
-.button {
-	width: 200px;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 0px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
-	transition: all 0.3s linear;
-}
-.button:hover {
-	background-color: #6DC7D0;
-	color: #FFFFFF;
-	cursor: pointer;
-}
-.copyright {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #717070;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-}
-footer {
-	background-color: #B3B3B3;
-	padding-top: 60px;
-	padding-bottom: 60PX;
-}
-.intro {
-	display: inline-block;
-	background-color: #6DC7D0;
-}
-.profile {
-	width: 50%;
-}
-.gallery .thumbnail .tag {
-	color: #5D5E5D;
-	padding-bottom: 4px;
-	padding-top: 4px;
-	text-align: left;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-/* Mobile */
-@media (max-width: 320px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-.text_column {
-	width: 100%;
-	text-align: justify;
-	padding: 0;
-}
-.intro .column p {
-	width: 80%;
-	margin-left: 0px;
-}
-.text_column {
-	padding-left: 20px;
-}
-.thumbnail {
-	width: 100%;
-}
-.column {
-	width: 100%;
-	margin-top: 0px;
-}
-.hero_header {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 22px;
-	text-align: center;
-}
-}
-
-/* Small Tablets */
-@media (min-width: 321px)and (max-width: 767px) {
-.logo {
-	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-.text_column {
-	width: 100%;
-	text-align: left;
-	padding: 0;
-}
-.thumbnail {
-	width: 100%;
-}
-.column {
-	width: 100%;
-	margin-top: 0px;
-}
-.thumbnail {
-	width: 100%;
-}
-.text_column {
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 90%;
-}
-.column {
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-.profile {
-	width: 100%;
-}
-.intro .column p {
-	width: 90%;
-	text-align: center;
-	padding-left: 0px;
-}
-}
-
-/* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
-.text_column {
-	width: 100%;
-}
-.thumbnail {
-	width: 48%;
-}
-.text_column {
-	width: 90%;
-	margin: 0;
-	padding: 20px;
-}
-.intro .column p {
-	width: 80%;
-}
-}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="simpleGridTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">让文物动起来</h4>
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column">
+      <h3>&nbsp;</h3>
+      <img src="博物馆.jpg" alt="" class="profile"> </div>
+    <div class="column">
+      <p>&nbsp;</p>
+      <p><strong>您是否还在为不能实地勘察这样壮观宏伟的博物馆感到可惜呢？&nbsp; </strong></p>
+<p><strong>您是否为不能多角度细致欣赏而感到可惜呢？</strong></p>
+      <p><strong>在这里您可以看到桂林文物的三维动态文物</strong></p>
+      <p><strong>（一点小tips：</strong></p>
+      <p><strong>1.点击缩略图可看到全图/原图&nbsp;</strong></p>
+      <p><strong>2.点击图片下方的“GIF‘可在线查看动图</strong></p>
+      <p><strong>3.点击图片下方的“建模模型”可下载手动查看 模型&nbsp;</strong></p>
+    </div>
+  </section>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail"> <a href="三足陶鼎.jpg"><img src="三足陶鼎.jpg" alt="" width="179" height="190"/></a>
+      <h4>三足陶鼎</h4>
+      <p class="tag"><a href="三足陶鼎.mp4">GIF</a></p>
+      <p class="tag"><a href="三足陶鼎.glb">建模模型&nbsp;</a></p>
+      <p class="text_column"><strong>古代烹饪器具，三条腿支撑，陶质制造</strong></p>
+    </div>
+    <div class="thumbnail"> <a href="百济金铜香炉.jpg"><img src="百济金铜香炉.jpg" alt="" width="93" height="190"/></a>
+      <h4>百济金铜香炉</h4>
+      <p class="tag"><a href="百济金铜香炉.mp4">GIF</a></p>
+      <p class="tag"><a href="百济金铜香炉.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>朝鲜半岛百济时期，金铜材质，香炉用途</strong></p>
+    </div>
+    <div class="thumbnail"> <a href="哥釉五彩云龙纹梅瓶.jpg"><img src="哥釉五彩云龙纹梅瓶.jpg" alt="" width="133" height="190"/></a>
+      <h4>哥釉五彩云龙纹梅瓶</h4>
+      <p class="tag"><a href="哥釉五彩云龙纹梅瓶.mp4">GIF</a></p>
+      <p class="tag"><a href="哥釉五彩云龙纹梅瓶.glb">建模模型&nbsp;</a></p>
+      <p class="text_column"><strong>哥窑瓷，饰彩云龙纹，色与彩斑斓</strong></p>
+    </div>
+    <div class="thumbnail"> <a href="苗族头盔.jpg"><img src="苗族头盔.jpg" alt="" width="150" height="190"/></a>
+      <h4>苗族头盔</h4>
+      <p class="tag"><a href="苗族头盔.mp4">GIF</a></p>
+      <p class="tag"><a href="苗族头盔.glb">建模模型&nbsp;</a></p>
+      <p class="text_column"><strong>苗族传统饰品，以银为主，工艺精美</strong></p>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="thumbnail"> <a href="青花双龙戏珠纹梅瓶.jpg"><img src="青花双龙戏珠纹梅瓶.jpg" alt="" width="120" height="190"/></a>
+      <h4>青花双龙戏珠纹梅瓶</h4>
+      <p class="tag"><a href="青花双龙戏珠纹梅瓶.mp4">GIF</a></p>
+      <p class="tag"><a href="青花双龙戏珠纹梅瓶.glb">建模模型&nbsp; </a></p>
+      <p class="text_column"><strong>描绘双龙绕瓶嬉戏，系追戏珠图案</strong></p>
+    </div>
+    <div class="thumbnail"> <a href="乳鼠酒杯瓶1.png"><img src="乳鼠酒杯瓶1.png" alt="" width="170" height="190"/></a>
+      <h4>乳鼠酒杯瓶</h4>
+      <p class="tag"><a href="青花双龙戏珠纹梅瓶.mp4">GIF</a></p>
+      <p class="tag"><a href="乳鼠酒梅瓶.glb">建模模型&nbsp;</a></p>
+      <p class="text_column"><strong>奇特瓶形，模仿鼠儿吮吸状，趣味造型</strong></p>
+    </div>
+    <div class="thumbnail"> <a href="素胎伽叶弟子坐像.jpg"><img src="素胎伽叶弟子坐像.jpg" alt="" width="135" height="190"/></a>
+      <h4>素胎伽叶弟子坐像</h4>
+      <p class="tag"><a href="素胎伽叶弟子坐像.mp4">GIF</a></p>
+      <p class="tag"><a href="素胎伽叶弟子坐像.glb">建模模型&nbsp;</a></p>
+      <p class="text_column"><strong>素胎伽叶弟子坐像，佛教雕塑艺术，表现宁静修行状态。</strong></p>
+    </div>
+    <div class="thumbnail"> <a href="陶阿难弟子像1.png"><img src="陶阿难弟子像1.png" alt="" width="186" height="190"/></a>
+      <h4>陶阿难弟子像</h4>
+      <p class="tag"><a href="陶阿难弟子像.mp4">GIF</a></p>
+      <p class="tag"><a href="陶阿难弟子像.glb">建模模型&nbsp; </a></p>
+      <p class="text_column"><strong>陶阿难弟子像，佛教造像，展现阿难尊者形象。</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="彝点纹陶罐.jpg"><img src="彝点纹陶罐.jpg" alt="" width="170" height="190"/></a>
+      <h4>彝点纹陶罐</h4>
+      <p class="tag"><a href="彝点纹陶罐.mp4">GIF</a></p>
+      <p class="tag"><a href="彝点纹陶罐.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="铜铸人马像.jpg"><img src="铜铸人马像.jpg" alt="" width="120" height="190"/></a>
+      <h4>铜铸人马像</h4>
+      <p class="tag"><a href="铜铸人马像.mp4">GIF</a></p>
+      <p class="tag"><a href="铜铸人马像.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>铸造艺术品，展现人骑马的姿态</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="铜舍利宝函.jpg"><img src="铜舍利宝函.jpg" alt="" width="170" height="190"/></a>
+      <h4>铜舍利宝函</h4>
+      <p class="tag"><a href="铜舍利宝函.jpg">&nbsp;GIF</a></p>
+      <p class="tag"><a href="铜舍利宝函.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>佛教文物，铜制舍利容器</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="陶壶.jpg"><img src="陶壶.jpg" alt="" width="120" height="190"/></a>
+      <h4>陶壶</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    
+	    <div class="thumbnail"> <a href="高士行游图.jpg"><img src="高士行游图.jpg" alt="" width="120" height="190"/></a>
+      <h4>高士行游图</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="孔雀蓝黑花.jpg"><img src="孔雀蓝黑花.jpg" alt="" width="120" height="190"/></a>
+      <h4>孔雀蓝黑花</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="美人肩异型.jpg"><img src="美人肩异型.jpg" alt="" width="120" height="190"/></a>
+      <h4>美人肩异型</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="木船.jpg"><img src="木船.jpg" alt="" width="120" height="190"/></a>
+      <h4>木船</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="青花饮酒.jpg"><img src="青花饮酒.jpg" alt="" width="120" height="190"/></a>
+      <h4>青花饮酒</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="青花迎龙赶珠梅瓶.jpg"><img src="青花迎龙赶珠梅瓶.jpg" alt="" width="120" height="190"/></a>
+      <h4>青花迎龙赶珠梅瓶</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="素胚佛子像.jpg"><img src="素胚佛子像.jpg" alt="" width="120" height="190"/></a>
+      <h4>素胚佛子像</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+	    <div class="thumbnail"> <a href="铜盖.jpg"><img src="铜盖.jpg" alt="" width="120" height="190"/></a>
+      <h4>铜盖</h4>
+      <p class="tag"><a href="陶壶.mp4">GIF</a></p>
+      <p class="tag"><a href="陶壶.glb">建模模型&nbsp;</a></p>
+<p class="text_column"><strong>带有彝族特色的点纹装饰陶罐</strong></p>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p class="hero_header"><strong>欢迎邮箱投稿</strong></p>
+    <p class="hero_header">{<strong><em>投稿时请将文物的各个角度图片压缩包，发送于下列邮箱</em></strong>。</p>
+<p class="hero_header"><strong>两张连续图片之间需有重合部分}&nbsp;</strong></p>
+<div class="button">
+  <p>18607747146</p>
+  <p>@163.com</p>
+</div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2024 - melon酱酱就是我 <strong>&nbsp;</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
