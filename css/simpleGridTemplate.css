@@ -2,17 +2,18 @@
 /* Body */
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	background-image: url("图片 JPG 1-120/01润物瓶.png");
+	background-image: url("新JPG/01润物瓶.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
 }
+
 /* Container */
 .container {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFFF;
+	background-color: #808080;
 }
 /* Header */
 header {
@@ -24,9 +25,8 @@ header {
 .logo {
 	color: #fff;
 	font-weight: bold;
-	margin-left: auto;
 	letter-spacing: 2px;
-	margin-right: auto;
+	margin: 0;
 	text-align: center;
 	padding-top: 2px;
 	line-height: 2em;
